@@ -3,14 +3,16 @@
 .body{
     font-family: "Inter", sans-serif;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    
 }
 .container{
-    width:70%;
+    width:75%;
     margin: 1rem auto;
 }
 .p{
     width: 520px;
 height: 282px;
+color: rgba(255, 255, 255, 0.5);
 }
 .logo{
     width: 132px;
@@ -22,7 +24,7 @@ font-weight: 800;
 .btn-primary{
     width: 224px;
 height: 54px;
-font-family: Inter;
+font-family: "Inter";
 font-size: 18px;
 font-weight: 600;
 line-height: 22px;
@@ -69,14 +71,14 @@ color: white;
     text-align: left;
 }
 .text-content{
-    width: 599.05px;
-    height: 570px;
+    width: 499.05px;
+    height: 470px;
 }
 .text-content h1{
     width: 520px;
 height: 242px;
 color: rgb(255, 255, 255);
-font-family: Inter;
+font-family: "Inter";
 font-size: 78px;
 font-weight: 900;
 line-height: 120%;
@@ -92,4 +94,39 @@ border: 1px solid rgb(255, 255, 255);
     width: 379px;
 height: 611px;
 padding-left: 400px;
+}
+/* habit section */
+.habit-content{
+    text-align: center;
+}
+.habit-content h1{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 38px;
+font-weight: 900;
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+  text-align: center;
+}
+.box h4{
+color: white;
+}
+/* run section */
+.run{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    text-align: left;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 50px;
+}
+.run-img img {
+    width: 366px;
+height: 312px;
+border-radius: 18px;
 }
