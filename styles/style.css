@@ -185,7 +185,7 @@ height: 240px;
 }
 .img-5 img{
 width: 400px;
-height: 230px;
+height: 240px;
 
 }
 .img-6{
@@ -193,7 +193,7 @@ height: 230px;
 }
 .img-6 img{
 width: 370px;
-height: 250px;
+height: 240px;
 
 }
 /* team section */
@@ -211,12 +211,60 @@ height: 250px;
 .grid-2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-   
+    background: rgb(34, 34, 34);
+    padding: 5px;
+    border-radius: 15px;
 }
 .grid-2 img{
     border-radius: 15px;
-    width: 500px;
-    height: 350px;
+    width: 490px;
+    height: 370px;
     padding: 5px;
-    background: rgba(0, 0, 0, 0.2);
+}
+/* footer section */
+footer{
+    background-color: rgb(34, 34, 34);
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+}
+.footer-box h1{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+line-height: 100%;
+}
+.footer-box p, h4{
+    color: rgba(255, 255, 255, 0.5);
+} 
+.footer-box h3{
+    color: white;
+}
+.box-1{
+width: 50%;
+margin: 25px;
+margin-left: 195px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+}
+.box-2{
+    width: 25%;
+    margin-left: 300px;
+}
+.box-3{
+    width: 25%;
+    margin: 50px;
+}
+hr{
+    width: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.ending{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px;
 }
